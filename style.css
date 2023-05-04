@@ -1,4 +1,5 @@
-.social {
+/* .social {
+    z-index: -1;
     position: fixed;
     top: 300px;
 }
@@ -40,10 +41,10 @@
     color: white;
 
     padding: 15px;
-    border-radius: 50%;
+    border-radius: 50%; */
     /* width: 30px;
     height: 30px; */
-    font-size: 20px;
+    /* font-size: 20px;
     transform: rotate(0deg);
 }
 
@@ -74,4 +75,4 @@ a {
     width: 150px;
     /* Hover styles, 
     media queries */
-  }
+  } */
