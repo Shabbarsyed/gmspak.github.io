@@ -62,13 +62,14 @@
         display: inline-block;
         font-size: 12px;
         letter-spacing: 2px;
-        font-weight: 200;
+        font-weight: 400;
         
         height: 40px;
         line-height: 40px;
         position: fixed;
         right: 0;
         top: 200px;
+        
         text-align: center;
         text-decoration: dotted;
         text-transform: uppercase;
