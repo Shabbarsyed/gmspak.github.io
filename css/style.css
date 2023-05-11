@@ -163,3 +163,9 @@
 
 }
 
+
+@media (max-width :1460px) {
+  .social-container{
+    display: none;
+  }
+}

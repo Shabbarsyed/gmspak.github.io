@@ -22,6 +22,8 @@
 		}
 	}
 	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -8661,23 +8663,24 @@ Adherent Cell Injection, Transgenics & IVF, Ratio Imaging, Documentation</p>
 		  </div>
 		</div>
 	  </div>
-	  <div class="post-tags"> </div>
+	  <!-- <div class="post-tags"> </div> -->
 	</div>
 	
 	
   </main>
-  <script nitro-exclude>
+  <!-- <script nitro-exclude>
 	document.cookie = 'nitroCachedPage=' + (!window.NITROPACK_STATE ? '0' : '1') + '; path=/; SameSite=Lax';
-  </script> <script nitro-exclude>
-	if (!window.NITROPACK_STATE || window.NITROPACK_STATE != 'FRESH') {
-		var proxyPurgeOnly = 0;
-		if (typeof navigator.sendBeacon !== 'undefined') {
-			var nitroData = new FormData(); nitroData.append('nitroBeaconUrl', 'aHR0cHM6Ly9pY2FydXNtZWRpY2FsLmNvbS8='); nitroData.append('nitroBeaconCookies', 'W10='); nitroData.append('nitroBeaconHash', 'fcb2855fd45067052f3b1b87a5ad4373c701df2942b793138f05bfb396116e5f1159650c117f2257b70042704701a4c438208f880347e722244bdee90af44b86'); nitroData.append('proxyPurgeOnly', ''); nitroData.append('layout', 'home'); navigator.sendBeacon(location.href, nitroData);
-		} else {
-			var xhr = new XMLHttpRequest(); xhr.open('POST', location.href, true); xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); xhr.send('nitroBeaconUrl=aHR0cHM6Ly9pY2FydXNtZWRpY2FsLmNvbS8=&nitroBeaconCookies=W10=&nitroBeaconHash=fcb2855fd45067052f3b1b87a5ad4373c701df2942b793138f05bfb396116e5f1159650c117f2257b70042704701a4c438208f880347e722244bdee90af44b86&proxyPurgeOnly=&layout=home');
-		}
-	}
-  </script> 
+   </script>  -->
+<!-- <script nitro-exclude>
+// 	if (!window.NITROPACK_STATE || window.NITROPACK_STATE != 'FRESH') {
+// 		var proxyPurgeOnly = 0;
+// 		if (typeof navigator.sendBeacon !== 'undefined') {
+// 			var nitroData = new FormData(); nitroData.append('nitroBeaconUrl', 'aHR0cHM6Ly9pY2FydXNtZWRpY2FsLmNvbS8='); nitroData.append('nitroBeaconCookies', 'W10='); nitroData.append('nitroBeaconHash', 'fcb2855fd45067052f3b1b87a5ad4373c701df2942b793138f05bfb396116e5f1159650c117f2257b70042704701a4c438208f880347e722244bdee90af44b86'); nitroData.append('proxyPurgeOnly', ''); nitroData.append('layout', 'home'); navigator.sendBeacon(location.href, nitroData);
+// 		} else {
+// 			var xhr = new XMLHttpRequest(); xhr.open('POST', location.href, true); xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); xhr.send('nitroBeaconUrl=aHR0cHM6Ly9pY2FydXNtZWRpY2FsLmNvbS8=&nitroBeaconCookies=W10=&nitroBeaconHash=fcb2855fd45067052f3b1b87a5ad4373c701df2942b793138f05bfb396116e5f1159650c117f2257b70042704701a4c438208f880347e722244bdee90af44b86&proxyPurgeOnly=&layout=home');
+// 		}
+// 	} -->
+//   </script> 
   <footer data-elementor-type="footer" data-elementor-id="51" class="elementor elementor-51 elementor-location-footer">
 	<div class="elementor-section-wrap">
 	  <section class="elementor-section elementor-top-section elementor-element elementor-element-56ae0fb footer elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="56ae0fb" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -12203,6 +12206,11 @@ Adherent Cell Injection, Transgenics & IVF, Ratio Imaging, Documentation</p>
 		}
 
 		@media (max-width:1024px) {
+
+			.social-container {
+  
+				display: none;
+}
 			.elementor-widget-heading .elementor-heading-title {
 				font-size: var(--e-global-typography-primary-font-size);
 				line-height: var(--e-global-typography-primary-line-height);
@@ -12919,6 +12927,10 @@ Adherent Cell Injection, Transgenics & IVF, Ratio Imaging, Documentation</p>
 		}
 
 		@media (max-width:767px) {
+			.social-container {
+  
+  display: none;
+}
 			.elementor-widget-heading .elementor-heading-title {
 				font-size: var(--e-global-typography-primary-font-size);
 				line-height: var(--e-global-typography-primary-line-height);
@@ -16065,6 +16077,10 @@ Adherent Cell Injection, Transgenics & IVF, Ratio Imaging, Documentation</p>
 		}
 
 		@media (max-width:1024px) {
+			.social-container {
+  
+  display: none;
+}
 			.elementor-bc-flex-widget .elementor-4730 .elementor-element.elementor-element-6222fe1c.elementor-column .elementor-column-wrap {
 				align-items: center;
 			}
@@ -17533,7 +17549,7 @@ Adherent Cell Injection, Transgenics & IVF, Ratio Imaging, Documentation</p>
 		}
 
 		body[data-elementor-device-mode=mobile] .elementor-sticky--active .elementor-nav-menu__container {
-			top: 8px !important;
+			top: 8px;
 		}
 
 		.b-logo {
